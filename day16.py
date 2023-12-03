@@ -3,7 +3,7 @@ import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
-
+print("This is for time")
 while True:
     user_action = input("Type add,show,edit or exit :")
     user_action = user_action.strip()
